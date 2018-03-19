@@ -1,5 +1,5 @@
-hash: b9848acb740568ebb9010db1deb5daa90cb9aa7a329cb7c91e74e00d5064019d
-updated: 2017-09-13T15:57:05.519077286+08:00
+hash: 231b18c685499729260a29616c4629fbedcf6e4cb9d4bd56d8cb9869e7787c7c
+updated: 2018-01-23T01:48:34.853760587Z
 imports:
 - name: cloud.google.com/go
   version: 3b1ae45394a234c385be014e9a488f2bb6eef821
@@ -116,7 +116,7 @@ imports:
   - unicode/norm
   - width
 - name: golang.org/x/time
-  version: 8be79e1e0910c292df4e79c241bb7e8f7e725959
+  version: 6dc17368e09b0e8634d71cac8168d853e869a0c7
 - name: google.golang.org/appengine
   version: 12d5545dc1cfa6047a286d5e853841b6471f4c19
   subpackages:

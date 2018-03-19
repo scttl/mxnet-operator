@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: mx-job-operator
-        image: 10.199.192.16/tensorflow/mx_operator:1.7-ca2a96c
+        image: gcr.io/constant-cubist-173123/mx_operator:1.7-c377703
         imagePullPolicy: Always
         command:
           - /opt/mlkube/mx_operator
@@ -50,4 +50,4 @@ spec:
       volumes:
         - name: config-volume
           configMap:
-            name: tf-job-operator-config
+            name: mx-job-operator-config
